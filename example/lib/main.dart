@@ -16,8 +16,8 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     final ButtonStyle style = ElevatedButton.styleFrom(
-      primary: Colors.blue,
-      onPrimary: Colors.white,
+      backgroundColor: Colors.blue,
+      foregroundColor: Colors.white,
     );
 
     return Scaffold(
